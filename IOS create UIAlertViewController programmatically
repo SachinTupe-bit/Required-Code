@@ -1,0 +1,8 @@
+ let alertController = UIAlertController(title: "Some Error",
+                                               message: "Pleas confirm?",
+                                               preferredStyle: .alert)
+
+  let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alertController.addAction(defaultAction)
+
+  self?.present(alertController, animated: true, completion: nil)
